@@ -1,6 +1,9 @@
 % Demo of Simulation 1
 clc;clear;
 
+currentFolder = pwd;
+addpath(genpath(currentFolder))
+
 % the parameters of generating an attributed graph
 Q = 2;
 n = 100;

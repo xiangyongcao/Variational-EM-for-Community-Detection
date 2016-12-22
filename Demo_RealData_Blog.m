@@ -1,6 +1,10 @@
 % Demo of real data: Political Blog
 clc;
 clear;
+
+currentFolder = pwd;
+addpath(genpath(currentFolder))
+
 % load data
 load('X_blog_directed.mat');
 load('Y_blog.mat');
